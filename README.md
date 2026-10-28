@@ -1,5 +1,11 @@
 # Specification Testing in C
 
+[![C23](https://img.shields.io/badge/C-23-00599C?style=flat-square&logo=c&logoColor=white)](https://www.open-std.org/jtc1/sc22/wg14/)
+[![cmocka](https://img.shields.io/badge/testing-cmocka-2E7D32?style=flat-square)](https://cmocka.org/)
+[![CMake](https://img.shields.io/badge/build-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)](https://cmake.org/)
+[![Doxygen](https://img.shields.io/badge/documentation-Doxygen-2C4AA8?style=flat-square)](https://www.doxygen.nl/)
+[![License: zlib](https://img.shields.io/badge/license-zlib-blue?style=flat-square)](LICENSE)
+
 Brandon Magoni -- CSIS3106: Software Verification, Validation, Testing and Security
 
 October, 2026
