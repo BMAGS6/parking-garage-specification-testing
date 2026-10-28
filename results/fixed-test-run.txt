@@ -1,0 +1,46 @@
+UpdateCTestConfiguration  from :/workspace/scratch/58b9012f1ed8/build_private/build-fixed-118/DartConfiguration.tcl
+Test project /workspace/scratch/58b9012f1ed8/build_private/build-fixed-118
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: parking_specification
+
+1: Test command: /workspace/scratch/58b9012f1ed8/build_private/build-fixed-118/test_parking
+1: Working Directory: /workspace/scratch/58b9012f1ed8/build_private/build-fixed-118
+1: Test timeout computed to be: 10000000
+1: [==========] tests: Running 12 test(s).
+1: [ RUN      ] test_negative_minutes_rejected
+1: [       OK ] test_negative_minutes_rejected
+1: [ RUN      ] test_zero_minutes_is_free
+1: [       OK ] test_zero_minutes_is_free
+1: [ RUN      ] test_1_minute_costs_500
+1: [       OK ] test_1_minute_costs_500
+1: [ RUN      ] test_30_minutes_costs_500
+1: [       OK ] test_30_minutes_costs_500
+1: [ RUN      ] test_59_minutes_costs_500
+1: [       OK ] test_59_minutes_costs_500
+1: [ RUN      ] test_60_minutes_costs_500
+1: [       OK ] test_60_minutes_costs_500
+1: [ RUN      ] test_61_minutes_costs_700
+1: [       OK ] test_61_minutes_costs_700
+1: [ RUN      ] test_119_minutes_costs_700
+1: [       OK ] test_119_minutes_costs_700
+1: [ RUN      ] test_120_minutes_costs_700
+1: [       OK ] test_120_minutes_costs_700
+1: [ RUN      ] test_121_minutes_costs_900
+1: [       OK ] test_121_minutes_costs_900
+1: [ RUN      ] test_1440_minutes_costs_5100
+1: [       OK ] test_1440_minutes_costs_5100
+1: [ RUN      ] test_above_1440_minutes_rejected
+1: [       OK ] test_above_1440_minutes_rejected
+1: [==========] tests: 12 test(s) run.
+1: [  PASSED  ] 12 test(s).
+1/1 Test #1: parking_specification ............   Passed    0.00 sec
+
+100% tests passed out of 1
+
+Total Test time (real) =   0.00 sec
